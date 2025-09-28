@@ -40,3 +40,20 @@ footer {
   padding: 1rem;
   background-color: #eee;
 }
+.animated-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #fff;
+  animation: fadeInSlide 2s ease-out;
+}
+
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
